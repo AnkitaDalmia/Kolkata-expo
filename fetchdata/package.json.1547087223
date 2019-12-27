@@ -1,0 +1,40 @@
+{
+  "name": "fetchdata",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-animatable": "^1.3.2",
+    "react-native-communications": "^2.2.1",
+    "react-native-dialog-component": "^0.2.17",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-maps": "^0.24.2",
+    "react-native-open-maps": "^0.3.3",
+    "react-native-phone-call": "^1.0.9",
+    "react-native-picker-select": "^6.2.0",
+    "react-native-platform-touchable": "^1.1.1",
+    "react-native-scrollable-tab-view-forked": "^1.0.5",
+    "react-native-shapes": "^0.1.0",
+    "react-native-side-drawer": "^1.1.7",
+    "react-native-simple-dialogs": "^1.1.0",
+    "react-navigation": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
